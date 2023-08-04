@@ -12,6 +12,8 @@ function CountFeedback() {
   // const [neutral, setNeutral] = useState(0);
   // const [bad, setBad] = useState(0);
 
+  // useEffect(() => countTotalFeedback(), [state]);
+
   const handleOptionClick = option => {
     setState(prevState => {
       return { ...prevState, [option]: prevState[option] + 1 };
