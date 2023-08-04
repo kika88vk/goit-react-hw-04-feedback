@@ -1,0 +1,39 @@
+.heading {
+  padding-left: 25px;
+}
+
+.statistics {
+  padding-left: 25px;
+  font-size: 30px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.item {
+  font-size: 20px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.btn {
+  width: 70px;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: white;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+.btnsContainer {
+  margin-left: 30px;
+}
+
+.text {
+  padding-left: 25px;
+  font-size: 20px;
+}
